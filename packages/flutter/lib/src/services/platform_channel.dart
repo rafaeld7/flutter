@@ -182,6 +182,7 @@ class MethodChannel {
   ///
   /// Returns a [Future] which completes to one of the following:
   ///
+  ///
   /// * a result (possibly null), on successful invocation;
   /// * a [PlatformException], if the invocation failed in the platform plugin;
   /// * a [MissingPluginException], if the method has not been implemented by a
